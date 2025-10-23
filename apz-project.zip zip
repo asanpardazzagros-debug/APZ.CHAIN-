@@ -2076,4 +2076,4 @@ zip -r "../$OUT_ZIP" "$(basename "$ROOT")" -x "*.git/*" -x "*node_modules/*"
 cd - >/dev/null
 
 echo "Created $OUT_ZIP in $(pwd)"
-ls -lh "$OUT_ZIP"
+ls -lh "$OUT_ZIP"w
