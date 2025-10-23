@@ -1,7 +1,4 @@
-pipefail
 
-OUT_ZIP="${1:-apz-project.zip}"
-ROOT="${2:-./apz-project}"
 
 echo "Creating full APZ repo scaffold at $ROOT"
 rm -rf "$ROOT"
